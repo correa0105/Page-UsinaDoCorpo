@@ -56,7 +56,6 @@ a:-webkit-any-link {
     font-size: 2rem;
     background: #FF5A00;
     color: white;
-    border: 1px solid #FF5A00;
 }
 
 /* END CABEÇALHO*/
@@ -105,14 +104,20 @@ a:-webkit-any-link {
 }
 
 .imgSlider {
-    width: 100%;
+    width: 89vw;
     height: 100%;
-    background-position: bottom center;
+    background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: #FFF;
+    font-family: 'Contrail One', cursive;
+    -webkit-text-stroke: 1px #FF5A00;
 }
 
 .container {
-    margin-top: 2%;
     margin-bottom: 6%;
 }
 
@@ -125,6 +130,11 @@ a:-webkit-any-link {
     color: #FFF;
     border-radius: 3rem;
     border: 2px solid #FF5A00;
+    transition: all ease-in-out 0.5s;
+}
+
+.list-item li:hover {
+    background: #FF5A00;
 }
 
 /* END MAIN SECTION */
@@ -161,8 +171,13 @@ a:-webkit-any-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     border: 1px solid #000;
-    padding: 0.2rem 3rem;
+    padding: 0.2rem 3rem 0.2rem 3rem;
     border-radius: 3rem;
+}
+
+.matriculese:hover {
+    background: #000;
+    color: #FFF;
 }
 
 .imgPlan {

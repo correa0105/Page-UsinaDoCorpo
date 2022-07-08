@@ -4,6 +4,7 @@ const clickSlider = document.querySelector(".sliderControls");
 document.querySelector(".containerImgs").style.width = `calc(100vw *${totalSliders})`;
 
 let currentSlide = 0;
+let time = 4500;
 
 function goNext() {
     currentSlide++;
@@ -39,5 +40,9 @@ function clickButton() {
         }
     })
 }
+
+setInterval(() => {
+    goNext();
+}, time );
 
 clickButton();
