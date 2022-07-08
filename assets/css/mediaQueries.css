@@ -1,0 +1,170 @@
+@media only screen and (min-width: 0px) {
+    .menu ul {
+        gap: 0.2rem;
+    }
+    .menu ul li {
+        font-size: 1.5rem;
+    }
+    .presentation h1 {
+        font-size: 1.3rem;
+    }
+    .slider {
+        height: 25rem;
+    }
+    .list-item li {
+        font-size: 1.5rem;
+    }
+    .call {
+        font-size: 1rem;
+    }
+    .experience {
+        -webkit-text-stroke: 0.5px #FFF;
+    }
+    .matriculese {
+        font-size: 0.8rem;
+        padding: 0.1rem 0.8rem;
+    }
+    .imgPlan {
+        left: 3px;
+        width: 8rem;
+        bottom: -15px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .menu ul {
+        gap: 0.2rem;
+    }
+    .presentation h1 {
+        font-size: 1.5rem;
+    }
+    .slider {
+        height: 25rem;
+    }
+    .container {
+        padding-top: 1.8rem;
+    }
+    .list-item li {
+        font-size: 1.8rem;
+    }
+    .call {
+        font-size: 1rem;
+    }
+    .experience {
+        -webkit-text-stroke: 0.5px #FFF;
+    }
+    .matriculese {
+        font-size: 0.8rem;
+        padding: 0.1rem 0.6rem;
+    }
+    .imgPlan {
+        left: 3%;
+        width: 8rem;
+        bottom: -15px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .menu ul {
+        gap: 0.2rem;
+    }
+    .presentation h1 {
+        font-size: 1.5rem;
+    }
+    .slider {
+        height: 30rem;
+    }
+    .container {
+        padding-top: 1.8rem;
+    }
+    .list-item li {
+        font-size: 1.8rem;
+    }
+    .call {
+        font-size: 1.3rem;
+    }
+    .experience {
+        -webkit-text-stroke: 0.5px #FFF;
+    }
+    .matriculese {
+        font-size: 1rem;
+        padding: 0.1rem 0.8rem;
+    }
+    .imgPlan {
+        left: 4%;
+        width: 10rem;
+        bottom: -18px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .menu ul {
+        gap: 0.2rem;
+    }
+    .menu ul li {
+        font-size: 1.8rem;
+    }
+    .presentation h1 {
+        font-size: 2rem;
+    }
+    .slider {
+        height: 30rem;
+    }
+    .container {
+        padding-top: 2rem;
+    }
+    .list-item li {
+        font-size: 1.8rem;
+    }
+    .call {
+        font-size: 2rem;
+    }
+    .experience {
+        -webkit-text-stroke: 0.5px #000;
+    }
+    .matriculese {
+        font-size: 1.5rem;
+        padding: 0.1rem 0.8rem;
+    }
+    .imgPlan {
+        left: 4%;
+        width: 13rem;
+        bottom: -18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu ul {
+        gap: 0.5rem;
+    }
+    .menu ul li {
+        font-size: 2rem;
+    }
+    .presentation h1 {
+        font-size: 3rem;
+    }
+    .slider {
+        height: 38rem;
+    }
+    .container {
+        padding-top: 2.5rem;
+    }
+    .list-item li {
+        font-size: 2rem;
+    }
+    .call {
+        font-size: 2.4rem;
+    }
+        .experience {
+        -webkit-text-stroke: 0.5px #000;
+    }
+    .matriculese {
+        font-size: 1.9rem;
+        padding: 0.1rem 1.8rem;
+    }
+    .imgPlan {
+        left: 4%;
+        width: 15rem;
+        bottom: -18px;
+    }
+}

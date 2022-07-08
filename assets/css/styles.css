@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.918);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.width-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+}
+
+/* CABEÇALHO */
+
+.header {
+    padding-top: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0.2rem solid #FF5A00;
+    border-radius: 1rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu ul li {
+    transform: skew(-20deg);
+    padding: 0.5rem 2.5rem;
+    font-family: 'Contrail One', cursive;
+    font-size: 2rem;
+    background: #FF5A00;
+    color: white;
+    border: 1px solid #FF5A00;
+}
+
+/* END CABEÇALHO*/
+
+/* MAIN SECTION */
+
+.presentation h1 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+.slider {
+    display: block;
+    overflow: hidden;
+    height: 45rem;
+}
+
+.sliderControls {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    width: 90%;
+    padding: 0 2rem;
+}
+
+.backSlider,
+.nextSlider {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 175, 175);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.containerImgs {
+    display: flex;
+    transition: all ease 2s;
+    width: 100%;
+    height: 100%;
+}
+
+.imgSlider {
+    width: 100%;
+    height: 100%;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.list-item li {
+    margin-top: 1.5%;
+    padding: 0.8% 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFF;
+    border-radius: 3rem;
+    border: 2px solid #FF5A00;
+}
+
+/* END MAIN SECTION */
+
+/* RODAPÉ */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #FF5A00;
+    width: 100vw;
+}
+
+.footerInformation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.call {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.experience {
+    -webkit-text-stroke: 0.5px #000;
+    color: transparent;
+}
+
+.matriculese {
+    margin: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    border: 1px solid #000;
+    padding: 0.2rem 3rem;
+    border-radius: 3rem;
+}
+
+.imgPlan {
+    position: absolute;
+    width: 20rem;
+    bottom: -35px;
+    left: 5%;
+}
+
+/* END RODAPÉ */
