@@ -6,6 +6,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/correa0105/Page-UsinaDoCorpo?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/correa0105/Page-UsinaDoCorpo?style=for-the-badge)
 
+<img src="./assets/img/exemplo.png" alt="Exemplo do Projeto">
+
 # ☕ Descrição do Projeto
 
 Lading Page para um anuncio da empresa onde eu trabalho, está é uma pagian de redirecionamento.
